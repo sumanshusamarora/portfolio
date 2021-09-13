@@ -1,2 +1,4 @@
 .idea/
 *.local*
+portfolio/media/*
+!portfolio/media/.ignore
