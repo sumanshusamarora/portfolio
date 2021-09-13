@@ -1,0 +1,8 @@
+name: portfolio
+dependencies:
+  - django
+  - pyyaml
+  - pip
+  - pip:
+      - django_extensions
+      - django-simple-history

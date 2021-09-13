@@ -1,0 +1,13 @@
+DATABASES:
+  default:
+    ENGINE: "django.db.backends.postgresql_psycopg2"
+    HOST: "localhost"
+    NAME: "portfolio_app"
+    USER: "dev" # docautobotadmin
+    PASSWORD: "dev" # mlai-auto@131241
+    PORT: "5432"
+    OPTIONS:
+      options: "-c search_path=portfolio"
+
+DEBUG: False
+SECRET_KEY: "django-secure-*n#kl;ejkwe763r8yfdhuiydhb^!uhdiuh%m%w2sui2oara229=y-xfgb%"
